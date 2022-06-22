@@ -1,15 +1,24 @@
 import React from 'react';
 import  "../Menu/Menu.css"
-type MenuType={
-    arr:Array<string>
-    title:string
-}
-const Menu = (props:MenuType) => {
+
+type MenuType = {
+    title: string;
+    arr: Array<string>;
+};
+
+const Menu = (props: MenuType) => {
+
+    const optionSelected = (event: React.ChangeEvent<HTMLSelectElement>) => {
+
+    };
+    
     return (
         <div className={"menu__children"}>
             <span>{props.title}</span>
-            <select>
-                {props.arr.map(s => <option>{s}</option> )}
+            <select onChange={optionSelected}>
+                {props.arr.map(s => 
+                    <option>{s}</option> 
+                )}
             </select>
         </div>
     );
