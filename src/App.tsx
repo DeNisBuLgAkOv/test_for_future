@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./App.css"
+import Menu from "./Menu/Menu";
+import MyInput from "./UI/MyInput/MyInput";
+import Book from "./Book/Book";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={"App"}>
+        <div className={"search"}>
+            <div className={"container"}>
+                <h1>SEARCH FOR BOOKS</h1>
+                <MyInput/>
+                    <div className={"menu"}>
+                        <Menu title={"Categories"}
+                              arr={["all", "art", "biography", "computers", "history", "medical", "poetry"]}/>
+                        <Menu title={"Sorting"} arr={["relevance", "newest"]}/>
+                    </div>
+            </div>
+        </div>
+      <div className={"content"} >
+            <Book/>
+            <Book/>
+
+      </div>
     </div>
   );
 }

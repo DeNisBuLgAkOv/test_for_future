@@ -1,0 +1,13 @@
+.menu__children{
+    width: 200px;
+}
+
+.menu__children span{
+    color: white;
+    margin-left: 15px;
+
+}
+
+.menu__children select{
+    margin-left: 15px;
+}
