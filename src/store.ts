@@ -3,6 +3,7 @@ import {reducer} from "./reducer";
 
 
 
-export const store = createStore(reducer);
 
-// type storeType = ReturnType <typeof >
+
+
+export const store = createStore(reducer)

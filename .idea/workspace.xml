@@ -5,22 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fe47418-ba5e-432e-b24c-8d604645071f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Book/Book.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Selects/Selects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/Book.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/Book.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UI/MyInput/MyInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputSearch/InputSearch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/1618515144_12-p-fon-knizhki-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputSearch/InputSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputSearch/InputSearch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Selects/Selects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Selects/Selects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/models/book.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/book.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +59,8 @@
       <updated>1655928113043</updated>
       <workItem from="1655928114534" duration="2334000" />
       <workItem from="1655969834065" duration="3506000" />
+      <workItem from="1655984901648" duration="5811000" />
+      <workItem from="1655990778072" duration="2491000" />
     </task>
     <servers />
   </component>

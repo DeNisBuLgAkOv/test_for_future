@@ -1,18 +1,23 @@
 import React, {ChangeEvent, useState,} from 'react';
-
-import {useDispatch} from "react-redux";
-
+import {useDispatch, useSelector} from "react-redux";
 import { api } from '../api';
+import {preloaderAC, stateType} from "../reducer";
 
 const InputSearch = () => {
+
     const dispatch = useDispatch()
+
+    const filterSort =useSelector<any>(state => state.filter)
+
     const [value, setValue] = useState<string>('');
+
 
     const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
         setValue(e.currentTarget.value)
     };  
 
     const onClickHandler = () => {
+        dispatch(preloaderAC(true))
        api.getBooks(value, 'newest')
         .then(res => console.log(res.data))
         .catch(err => console.log(err));

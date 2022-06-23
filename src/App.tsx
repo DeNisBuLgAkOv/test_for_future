@@ -4,8 +4,13 @@ import Menu from "./Menu/Menu";
 import InputSearch from "./InputSearch/InputSearch";
 import Book from "./Book/Book";
 import DescriptionBook from "./DescriptionBook/DescriptionBook";
+import Selects from "./Selects/Selects";
+import {useSelector} from "react-redux";
 
 function App() {
+
+    // const preloader = useSelector(state => state.preloader)
+    const preloader = false
   return (
     <div className={"App"}>
         <div className={"search"}>
@@ -13,15 +18,19 @@ function App() {
                 <h1>SEARCH FOR BOOKS</h1>
                 <InputSearch/>
                     <div className={"menu"}>
-                        <Menu flag={false} title={"Categories"}
-                              arr={["all", "art", "biography", "computers", "history", "medical", "poetry"]}/>
-                        <Menu flag={true} title={"Sorting"} arr={["relevance", "newest"]}/>
+                       <Selects/>
                     </div>
             </div>
         </div>
-      <div className={"content"} >
-            <DescriptionBook/>
-      </div>
+        <div className={"content"}>
+            {preloader
+                ? (
+                    <div className={"loader"}></div>
+                ) : (
+                    <DescriptionBook/>
+                )
+            }
+        </div>
     </div>
   );
 }

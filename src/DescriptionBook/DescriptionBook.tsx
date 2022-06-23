@@ -8,7 +8,7 @@ const DescriptionBook = () => {
             </div>
             <div className={"description_book"}>
                 <div className={"category"} ></div>
-                <div className={}></div>
+                <div className={''}></div>
                 <div></div>
                 <div></div>
             </div>
