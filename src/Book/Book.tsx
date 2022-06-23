@@ -1,11 +1,12 @@
 import React from 'react';
-
+import "./Book.css"
 const Book = () => {
     return (
-        <div style={{width:"250px",height:"300px",border:"1px solid red"}} className={"book"}>
-            <img src={""}/>
-            <div className={"name"} ></div>
-            <div className={"autor"}></div>
+        <div className={"book"}>
+            <img src={"http://books.google.com/books/content?id=euweEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"}/>
+            <div className={"category_book"}>Computer</div>
+            <div className={"name"} >React быстро. Веб-приложения на React, JSX, Redux и GraphQL</div>
+            <div className={"autor"}> Мардан Азат</div>
         </div>
     );
 };

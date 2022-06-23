@@ -1,8 +1,9 @@
 import React from 'react';
 import "./App.css"
 import Menu from "./Menu/Menu";
-import MyInput from "./UI/MyInput/MyInput";
+import InputSearch from "./InputSearch/InputSearch";
 import Book from "./Book/Book";
+import DescriptionBook from "./DescriptionBook/DescriptionBook";
 
 function App() {
   return (
@@ -10,18 +11,16 @@ function App() {
         <div className={"search"}>
             <div className={"container"}>
                 <h1>SEARCH FOR BOOKS</h1>
-                <MyInput/>
+                <InputSearch/>
                     <div className={"menu"}>
-                        <Menu title={"Categories"}
+                        <Menu flag={false} title={"Categories"}
                               arr={["all", "art", "biography", "computers", "history", "medical", "poetry"]}/>
-                        <Menu title={"Sorting"} arr={["relevance", "newest"]}/>
+                        <Menu flag={true} title={"Sorting"} arr={["relevance", "newest"]}/>
                     </div>
             </div>
         </div>
       <div className={"content"} >
-            <Book/>
-            <Book/>
-
+            <DescriptionBook/>
       </div>
     </div>
   );

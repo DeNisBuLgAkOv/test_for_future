@@ -1,21 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import  "../Menu/Menu.css"
+import {useDispatch} from "react-redux";
+import {sortBooksAC} from "../reducer";
 
 type MenuType = {
     title: string;
     arr: Array<string>;
+    flag:boolean;
 };
 
 const Menu = (props: MenuType) => {
 
-    const optionSelected = (event: React.ChangeEvent<HTMLSelectElement>) => {
+    const dispatch =useDispatch()
 
-    };
+
     
     return (
         <div className={"menu__children"}>
             <span>{props.title}</span>
-            <select onChange={optionSelected}>
+            <select >
                 {props.arr.map(s => 
                     <option>{s}</option> 
                 )}
