@@ -9,11 +9,12 @@ const instance = axios.create({
 });
 
 export const api = {
-    getBooks(title: string, orderBy: string) {
+    getBooks(title: string, orderBy: string, startIndex: number) {
         return instance.get('books/v1/volumes', {
             params: {
                 q: title,
-                orderBy: orderBy,
+                orderBy: orderBy || "newest",
+                startIndex,
                 key: API_KEY,
                 maxResults:30
             }

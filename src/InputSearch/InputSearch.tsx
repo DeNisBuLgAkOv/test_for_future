@@ -1,34 +1,56 @@
-import React, {ChangeEvent, useState,} from 'react';
+import React, {ChangeEvent,KeyboardEvent} from 'react';
 import {useDispatch, useSelector} from "react-redux";
 import { api } from '../api';
-import {preloaderAC, stateType} from "../reducer";
+import {inputValueAC, preloaderAC, setBookAC, stateType} from "../reducer";
 
 const InputSearch = () => {
 
-    const dispatch = useDispatch()
+  const dispatch = useDispatch()
 
-    const filterSort =useSelector<any>(state => state.filter)
+  const filterSort = useSelector<stateType, string>((state) => state.filter)
+  const startIndex = useSelector<stateType, number>((state) => state.startIndex)
+  const inputValue = useSelector<stateType, string>((state) => state.input)
 
-    const [value, setValue] = useState<string>('');
 
+  const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
+    dispatch(inputValueAC(e.currentTarget.value))
+  };
 
-    const onChangeHandler = (e: ChangeEvent<HTMLInputElement>) => {
-        setValue(e.currentTarget.value)
-    };  
+  const onClickHandler = () => {
 
-    const onClickHandler = () => {
-        dispatch(preloaderAC(true))
-       api.getBooks(value, 'newest')
-        .then(res => console.log(res.data))
-        .catch(err => console.log(err));
-    };
+    dispatch(preloaderAC(true))
+    api.getBooks(inputValue, filterSort, startIndex)
+      .then(res => {
+        dispatch(setBookAC(res.data))
+      })
+      .catch(err => console.log(err))
+      .finally(() => {
+        dispatch(preloaderAC(false))
+      })
+  };
 
-    return (
-        <div style={{display:"flex", margin:"10px 0"}}>
-            <input onChange={onChangeHandler}  placeholder={"Введите название книги"}/>
-            <button onClick={onClickHandler} style={{width:"25px",height:"40px"}}>GO</button>
-        </div>
-    );
+  const onKeyPressHandler = (event: KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === "Enter") {
+      dispatch(preloaderAC(true))
+      api.getBooks(inputValue, filterSort, startIndex)
+        .then(res => {
+          dispatch(setBookAC(res.data))
+        })
+        .catch(err => console.log(err))
+        .finally(() => {
+          dispatch(preloaderAC(false))
+        })
+    }
+
+  }
+
+  return (
+    <div style={{display: "flex", justifyContent: 'center', margin: "10px auto"}}>
+      <input onKeyPress={onKeyPressHandler} style={{width: '50%', minWidth: '100px', maxWidth: '300px'}}
+             onChange={onChangeHandler} placeholder={"Введите название книги"}/>
+      <button onClick={onClickHandler} style={{width: "25px", height: "40px"}}>GO</button>
+    </div>
+  );
 };
 
 
