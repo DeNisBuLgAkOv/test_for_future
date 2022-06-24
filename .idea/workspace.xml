@@ -6,20 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2ea33c51-6193-4b88-8ebd-8ac34d2ab613" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Book/Book.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/Book.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/Book.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book/Book.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InputSearch/InputSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/InputSearch/InputSearch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/Menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/Menu.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Selects/Selects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Selects/Selects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/book.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/book.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +46,7 @@
       <updated>1656085357631</updated>
       <workItem from="1656085359760" duration="4015000" />
       <workItem from="1656089475312" duration="255000" />
+      <workItem from="1656089969775" duration="265000" />
     </task>
     <servers />
   </component>
