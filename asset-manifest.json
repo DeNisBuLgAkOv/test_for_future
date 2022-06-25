@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test_for_future/static/css/main.597e699b.css",
+    "main.js": "/test_for_future/static/js/main.9f326093.js",
+    "index.html": "/test_for_future/index.html",
+    "main.597e699b.css.map": "/test_for_future/static/css/main.597e699b.css.map",
+    "main.9f326093.js.map": "/test_for_future/static/js/main.9f326093.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.597e699b.css",
+    "static/js/main.9f326093.js"
+  ]
+}
