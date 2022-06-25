@@ -19,7 +19,7 @@ function App() {
     const filterOpenBook = useSelector<stateType>((state: stateType): boolean => state.openBook)
 
     const bookList = filterBookList.length ? filterBookList : books
-    console.log(filterBookList)
+
 
     return (
       <div className={"App"}>
