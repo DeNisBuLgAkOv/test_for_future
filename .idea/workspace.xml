@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cf3a3a09-45c1-4a25-bbac-a5572f8a2d65" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pagination/Pagination.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +39,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2ea33c51-6193-4b88-8ebd-8ac34d2ab613" name="Changes" comment="" />
+      <changelist id="cf3a3a09-45c1-4a25-bbac-a5572f8a2d65" name="Changes" comment="" />
       <created>1656085357631</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -52,6 +50,7 @@
       <workItem from="1656090838165" duration="724000" />
       <workItem from="1656161928384" duration="202000" />
       <workItem from="1656163155721" duration="1787000" />
+      <workItem from="1656273510706" duration="250000" />
     </task>
     <servers />
   </component>

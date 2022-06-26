@@ -1,4 +1,5 @@
-import axios from "axios";
+import axios, {AxiosResponse} from "axios";
+import {booksType} from "./reducer";
 
 const API_KEY = "AIzaSyCcZ3ulB-efjjODKM-JAq7CAie3JIrVCcw";
 
@@ -9,7 +10,7 @@ const instance = axios.create({
 
 export const api = {
     getBooks(title: string, orderBy: string, startIndex: number) {
-        return instance.get('books/v1/volumes', {
+        return instance.get<{title: string, orderBy: string, startIndex: number},AxiosResponse<booksType>>('books/v1/volumes', {
             params: {
                 q: title,
                 orderBy: orderBy || "newest",
