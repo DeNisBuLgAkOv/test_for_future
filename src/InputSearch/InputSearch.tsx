@@ -31,15 +31,7 @@ const InputSearch = () => {
 
   const onKeyPressHandler = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Enter") {
-      dispatch(preloaderAC(true))
-      api.getBooks(inputValue, filterSort, startIndex)
-        .then(res => {
-          dispatch(setBookAC(res.data))
-        })
-        .catch(err => console.log(err))
-        .finally(() => {
-          dispatch(preloaderAC(false))
-        })
+        onClickHandler()
     }
 
   }
