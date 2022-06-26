@@ -1,6 +1,6 @@
 import React from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import {increaseStartIndexAC, preloaderAC, setBookAC, setMoreBooksAC, stateType} from "../reducer";
+import {increaseStartIndexAC, preloaderAC, setMoreBooksAC, stateType} from "../reducer";
 import {api} from "../api";
 
 const Pagination = () => {

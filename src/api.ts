@@ -1,5 +1,4 @@
 import axios from "axios";
-import {preloaderAC} from "./reducer";
 
 const API_KEY = "AIzaSyCcZ3ulB-efjjODKM-JAq7CAie3JIrVCcw";
 
