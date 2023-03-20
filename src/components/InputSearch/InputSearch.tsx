@@ -1,7 +1,8 @@
-import React, {ChangeEvent,KeyboardEvent} from 'react';
+import React, {ChangeEvent, KeyboardEvent} from 'react';
 import {useDispatch, useSelector} from "react-redux";
-import { api } from '../api';
-import {inputValueAC, preloaderAC, setBookAC, stateType} from "../reducer";
+import {api} from '../../api/api';
+import {stateType} from "../../store/types";
+import {inputValueAC, preloaderAC, setBookAC} from "../../store/actions";
 
 const InputSearch = () => {
 
@@ -31,7 +32,7 @@ const InputSearch = () => {
 
   const onKeyPressHandler = (event: KeyboardEvent<HTMLInputElement>) => {
     if (event.key === "Enter") {
-        onClickHandler()
+      onClickHandler()
     }
 
   }

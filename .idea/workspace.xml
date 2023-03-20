@@ -5,8 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf3a3a09-45c1-4a25-bbac-a5572f8a2d65" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/Book.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Book/Book.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book/Book.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Book/Book.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DescriptionBook/DescriptionBook.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DescriptionBook/DescriptionBook.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/DescriptionBook/DescriptionBook.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InputSearch/InputSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InputSearch/InputSearch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pagination/Pagination.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pagination/Pagination.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Selects/Selects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Selects/Selects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/book.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/book.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +52,13 @@
     <property name="ts.external.directory.path" value="C:\test_for_future\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\test_for_future\src\store" />
+      <recent name="C:\test_for_future\src\api" />
+      <recent name="C:\test_for_future\src\components" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +73,15 @@
       <workItem from="1656090838165" duration="724000" />
       <workItem from="1656161928384" duration="202000" />
       <workItem from="1656163155721" duration="1787000" />
-      <workItem from="1656273510706" duration="250000" />
+      <workItem from="1656273510706" duration="509000" />
+      <workItem from="1656508707136" duration="1751000" />
+      <workItem from="1656664233193" duration="3806000" />
+      <workItem from="1656778210254" duration="826000" />
+      <workItem from="1656829657989" duration="1464000" />
+      <workItem from="1672731076752" duration="289000" />
+      <workItem from="1679076086952" duration="198000" />
+      <workItem from="1679166782052" duration="161000" />
+      <workItem from="1679316864028" duration="1801000" />
     </task>
     <servers />
   </component>
